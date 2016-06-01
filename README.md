@@ -13,7 +13,9 @@ License: BSD 3-Clause
 
 ###Usage:
 
-Download the code and build it :) miracle happened
+Download the code and build it :) 
+
+miracle happened
 
 ---
 
