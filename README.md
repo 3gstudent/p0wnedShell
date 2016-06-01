@@ -15,7 +15,7 @@ License: BSD 3-Clause
 
 Download the code and build it :) 
 
-miracle happened
+Miracle happened :)
 
 ---
 
