@@ -11,6 +11,9 @@ License: BSD 3-Clause
 
 - All C# project can use this.
 
+###Usage:
+
+Download the code and build it :) miracle happened
 
 ---
 
