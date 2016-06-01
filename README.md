@@ -9,7 +9,7 @@ License: BSD 3-Clause
 
 - Test Success on Visual Studio 2008 and later.
 
-- All C# project can use this.
+- All Visual Studio project include c++ c# vb and vf# can use this.
 
 ###Usage:
 
