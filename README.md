@@ -1,4 +1,5 @@
-# p0wnedShell
+# p0wnedShell-DarkVersion
+###Add my own Poc to test Visual Studio trick to run code when building(3gstudent)
 
 PowerShell Runspace Post Exploitation Toolkit 
 
