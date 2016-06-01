@@ -1,13 +1,18 @@
 # p0wnedShell-DarkVersion
 ###Add my own POC to test Visual Studio trick to run code when building  
 
-(3gstudent)
-
-Test Success on Visual Studio 2008 and later.
-
-All C# project can use this.
+Author: 3gstudent
 
 
+License: BSD 3-Clause
+
+
+- Test Success on Visual Studio 2008 and later.
+
+- All C# project can use this.
+
+
+---
 
 PowerShell Runspace Post Exploitation Toolkit 
 
