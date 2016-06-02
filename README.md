@@ -1,5 +1,5 @@
 # p0wnedShell-DarkVersion
-###Add my own POC to test Visual Studio trick to run code when building  
+###Add my  POC to test Visual Studio trick to run code when building  
 
 Author: 3gstudent
 
