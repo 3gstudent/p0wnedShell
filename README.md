@@ -54,7 +54,7 @@ So I change this and add the following code:
   </Target>
 
 ```
-Success to run calc.exe,but the build blocked.Like this:
+Success to run calc.exe,but the build blocked.We must kill calc.exe,then build success.Like this:
 
 
 ![Alt text](http://static.wooyun.org/upload/image/201606/2016060310195961687.gif "gif1")
@@ -81,7 +81,7 @@ Use the DownloadString of Powershell,code is:
 
 Then,we made it.
 
-
+![Alt text](http://static.wooyun.org/upload/image/201606/2016060310201433968.gif "gif1")
 
 
 
