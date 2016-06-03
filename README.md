@@ -124,11 +124,19 @@ Code:
 </Target>
 ```
 
+####More
 
+All Visual Studio project include c++/c#/vb/ vf# can use this.
 
+Visual C++：
 
+- .vcxproj
 
+Visual Basic：
+- .vbproj
 
+Visual F#：
+- .fsproj
 
 
 
