@@ -66,7 +66,7 @@ Success to run calc.exe,but the build blocked.We must kill calc.exe,then build s
 We need powershell.
 
 
-Update my ps script:
+Upload my ps script:
 
 https://github.com/3gstudent/test/blob/master/calc.ps1
 
