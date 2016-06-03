@@ -57,6 +57,9 @@ So I change this and add the following code:
 Success to run calc.exe,but the build blocked.Like this:
 
 
+![Alt text](http://static.wooyun.org/upload/image/201606/2016060310195961687.gif "gif1")
+
+
 ####Solution:
 
 
