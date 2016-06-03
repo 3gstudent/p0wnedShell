@@ -18,6 +18,12 @@ Download the code and build it :)
 Miracle happened :)
 
 
+###Reference :
+
+http://thomasardal.com/msbuild-tutorial/
+
+https://msdn.microsoft.com/en-us/library/ms366724.aspx
+
 ###Details:
 
 ---
