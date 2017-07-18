@@ -1,5 +1,5 @@
 # p0wnedShell-DarkVersion
-###Add my  POC to test Visual Studio trick to run code when building  
+### Add my  POC to test Visual Studio trick to run code when building  
 
 Author: 3gstudent
 
@@ -11,20 +11,20 @@ License: BSD 3-Clause
 
 - All Visual Studio project include c++ c# vb and vf# can use this.
 
-###Usage:
+### Usage:
 
 Download the code and build it :) 
 
 Miracle happened :)
 
 
-###Reference :
+### Reference :
 
 http://thomasardal.com/msbuild-tutorial/
 
 https://msdn.microsoft.com/en-us/library/ms366724.aspx
 
-###Details:
+### Details:
 
 When I study the details about MSbuild Tasks,I produced an idea：
 
@@ -60,7 +60,7 @@ Success to run calc.exe,but the build blocked.We must kill calc.exe,then build s
 ![Alt text](http://static.wooyun.org/upload/image/201606/2016060310195961687.gif "gif1")
 
 
-####Solution:
+#### Solution:
 
 
 We need powershell.
@@ -83,7 +83,7 @@ Then,we made it.
 
 ![Alt text](http://static.wooyun.org/upload/image/201606/2016060310201433968.gif "gif1")
 
-####Use regsvr32.exe to run calc.exe
+#### Use regsvr32.exe to run calc.exe
 
 Code:
 
@@ -97,7 +97,7 @@ Console display error，but code execution success：
 
 ![Alt text](http://static.wooyun.org/upload/image/201606/2016060310203144681.gif "gif1")
 
-####run jsrat:
+#### run jsrat:
 
 Code:
 
@@ -109,7 +109,7 @@ Code:
 
 The build blocked again.
 
-####Solution:
+#### Solution:
 
 Creat a js file to run jsrat.
 
@@ -124,7 +124,7 @@ Code:
 </Target>
 ```
 
-####More
+#### More
 
 All Visual Studio project include c++/c#/vb/ vf# can use this.
 
@@ -138,7 +138,9 @@ Visual Basic：
 Visual F#：
 - .fsproj
 
+Details：
 
+《A dirty way of tricking users to bypass UAC》
 
 
 
